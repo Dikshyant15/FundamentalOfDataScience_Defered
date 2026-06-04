@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import seaborn as sns
-from sklearn.linear_model import LinearRegression
-import os
+
 
 
 def scrfft(xdata,ydata):
@@ -151,11 +149,7 @@ plt.text(
 
 plt.tight_layout()
 
-# output_path = "/mnt/data/figure1_one_panel.png"
-# plt.savefig(output_path, dpi=300, bbox_inches="tight")
-# plt.show()
 
-# output_path
 
 # ---------------------------------------------------
 # FIGURE 2
@@ -303,10 +297,6 @@ plt.text(
 )
 
 plt.tight_layout()
-
-# figure_path = "/mnt/data/figure4_european_prices.png"
-# plt.savefig(figure_path, dpi=300, bbox_inches="tight")
-
 plt.show()
 
 # ---------------------------------------------------
@@ -339,4 +329,3 @@ print(f"X (2021): {X:.4f}")
 print(f"Y (2022): {Y:.4f}")
 print(f"Z (2023): {Z:.4f}")
 
-# figure_path
